@@ -1,16 +1,14 @@
 
-import NavBar from './components/NavBar'
+import {BrowserRouter, Routes, Route } from "react-router"
 import './App.css'
-import Footer from './components/Footer'
+import HomePage from "./pages/HomePage"
+
 
 function App() {
  
 
   return (
-    <>
-      <NavBar></NavBar>
-      <Footer></Footer>
-    </>
+    <HomePage></HomePage>
   )
 }
 
